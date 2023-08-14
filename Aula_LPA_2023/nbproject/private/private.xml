@@ -3,11 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/F_Encapsulamento_Ex12/ElevadorDTO.java</file>
-            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/F_Encapsulamento_Ex12/ElevadorCTR.java</file>
-            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/F_Encapsulamento_Ex12/ElevadorDAO.java</file>
-            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/F_Encapsulamento_Ex11/HabitantesCTR.java</file>
-            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/F_Encapsulamento_Ex12/ElevadorVIEW.java</file>
+            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/G_Heranca_Ex02/JuridicoDTO.java</file>
+            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/G_Heranca_Ex02/JuridicoCTR.java</file>
+            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/G_Heranca_Ex02/ClienteDTO.java</file>
+            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/G_Heranca_Ex02/FisicoDTO.java</file>
+            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/G_Heranca_Ex02/FisicoDAO.java</file>
+            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/G_Heranca_Ex02/JuridicoDAO.java</file>
+            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/G_Heranca_Ex02/ClienteDAO.java</file>
+            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/G_Heranca_Ex02/ClienteVIEW.java</file>
+            <file>file:/D:/2°%20INFO/LPA-2/Aula_LPA_2023/src/G_Heranca_Ex02/FisicoCTR.java</file>
         </group>
     </open-files>
 </project-private>
