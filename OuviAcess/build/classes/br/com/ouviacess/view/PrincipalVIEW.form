@@ -89,7 +89,7 @@
     <Container class="javax.swing.JDesktopPane" name="desktopPane">
       <AuxValues>
         <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JDesktopPane(){&#xa;    public void paintComponent(Graphics graphics){&#xa;        graphics.drawImage(image, 0, 0, getWidth(), getHeight(), this);&#xa;    }&#xa;}"/>
-        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="ImageIcon imageicon = new ImageIcon(getClass().getResource(&quot;imagens/tela.png&quot;));&#xa;Image image = imageicon.getImage();"/>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="ImageIcon imageicon = new ImageIcon(getClass().getResource(&quot;imagens/FundoPrincipal.png&quot;));&#xa;Image image = imageicon.getImage();"/>
       </AuxValues>
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">

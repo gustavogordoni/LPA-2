@@ -33,7 +33,7 @@ public class PrincipalVIEW extends javax.swing.JFrame {
     private void initComponents() {
 
         jPopupMenu1 = new javax.swing.JPopupMenu();
-        ImageIcon imageicon = new ImageIcon(getClass().getResource("imagens/tela.png"));
+        ImageIcon imageicon = new ImageIcon(getClass().getResource("imagens/FundoPrincipal.png"));
         Image image = imageicon.getImage();
         desktopPane = new javax.swing.JDesktopPane(){
             public void paintComponent(Graphics graphics){
