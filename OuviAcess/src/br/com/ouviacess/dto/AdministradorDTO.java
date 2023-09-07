@@ -1,9 +1,6 @@
 package br.com.ouviacess.dto;
-/**
- *
- * @author Aluno
- */
-public class CadastroDTO {
+
+public class AdministradorDTO {
     private int id_administrador;
     private String nome, cpf, rg, email, senha, ddd, telefone;
 
