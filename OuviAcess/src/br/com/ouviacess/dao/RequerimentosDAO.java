@@ -1,6 +1,8 @@
 package br.com.ouviacess.dao;
 
 import br.com.ouviacess.dto.RequerimentosDTO;
+import br.com.ouviacess.dto.AdministradorDTO;
+
 import java.sql.*;
 
 public class RequerimentosDAO {
@@ -20,7 +22,7 @@ public class RequerimentosDAO {
      * @param requerimentosDTO, que vem da classe RequerimentosCTR
      * @return Um boolean
      */
-    public boolean inserirRequerimentos(RequerimentosDTO requerimentosDTO) {
+    public boolean inserirRequerimentos(RequerimentosDTO requerimentosDTO, AdministradorDTO administradorDTO) {
         try {
             //Chama o metodo que esta na classe ConexaoDAO para abrir o banco de dados
             ConexaoDAO.ConectDB();
@@ -28,7 +30,7 @@ public class RequerimentosDAO {
             stmt = ConexaoDAO.con.createStatement();
             //Comando SQL que sera executado no banco de dados
             String comando = "INSERT INTO requerimento (id_administrador, resposta)" + "VALUES ( "
-                + "'" + requerimentosDTO.getId_administrador() + ", "
+                + "'" + administradorDTO.getId_administrador() + ", "
                 + "'" + requerimentosDTO.getResposta() + "'";           
             
             //System.out.println(comando);

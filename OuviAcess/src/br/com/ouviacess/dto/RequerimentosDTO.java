@@ -5,7 +5,7 @@ public class RequerimentosDTO {
     //private int id_requerimento, id_usuario;
     
     private String resposta, situacao;
-    private int id_administrador, id_requerimento;    
+    private int id_requerimento;    
 
     public int getId_requerimento() {
         return id_requerimento;
@@ -13,14 +13,6 @@ public class RequerimentosDTO {
 
     public void setId_requerimento(int id_requerimento) {
         this.id_requerimento = id_requerimento;
-    }
-
-    public int getId_administrador() {
-        return id_administrador;
-    }
-
-    public void setId_administrador(int id_administrador) {
-        this.id_administrador = id_administrador;
     }
 
     public String getResposta() {

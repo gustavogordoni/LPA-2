@@ -44,6 +44,7 @@ public class PrincipalVIEW extends javax.swing.JFrame {
         menuLogin = new javax.swing.JMenu();
         menuCadastro = new javax.swing.JMenu();
         menuRequerimentos = new javax.swing.JMenu();
+        menuUsuarios = new javax.swing.JMenu();
         menuSair = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -87,6 +88,14 @@ public class PrincipalVIEW extends javax.swing.JFrame {
             }
         });
         menuBar.add(menuRequerimentos);
+
+        menuUsuarios.setText("Usuários");
+        menuUsuarios.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                menuUsuariosMouseClicked(evt);
+            }
+        });
+        menuBar.add(menuUsuarios);
 
         menuSair.setBackground(new java.awt.Color(255, 51, 51));
         menuSair.setMnemonic('h');
@@ -153,6 +162,15 @@ public class PrincipalVIEW extends javax.swing.JFrame {
          requerimentosVIEW.setPosicao();
     }//GEN-LAST:event_menuRequerimentosMouseClicked
 
+    private void menuUsuariosMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menuUsuariosMouseClicked
+        UsuariosVIEW usuariosVIEW = new UsuariosVIEW();
+         this.desktopPane.add(usuariosVIEW);
+         usuariosVIEW.setVisible(true);
+         usuariosVIEW.setPosicao();
+    }//GEN-LAST:event_menuUsuariosMouseClicked
+
+ 
+    
     /**
      * @param args the command line arguments
      */
@@ -197,6 +215,7 @@ public class PrincipalVIEW extends javax.swing.JFrame {
     private javax.swing.JMenu menuLogin;
     private javax.swing.JMenu menuRequerimentos;
     private javax.swing.JMenu menuSair;
+    private javax.swing.JMenu menuUsuarios;
     // End of variables declaration//GEN-END:variables
 
 }
