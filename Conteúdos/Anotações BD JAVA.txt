@@ -1,0 +1,3 @@
+stmt.executeQuery    	--> SELECT
+stmt.execute         	--> UPDATE, DELETE, INSERT
+pstmt.executeUpdate  	--> Upar arquivos grandes; IMAGEM no BD -- UPDATE, DELETE, INSERT, SELECT
